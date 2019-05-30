@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="practice11.css"/>
+<title> practices every where</title>
+</head>
+<body>
+        <div class="container">
+    <header>
+        <h1 class="logoname">Mohamed.Amine.Qobaiche</h1>
+    <nav>
+<a href="#" class="hidedesktop">
+        <img src="images/hamburger.png" alt="hamburger-icon" class="menu" id="menu"/>
+    </a>
+
+<ul class="show-desktop hide-mobile" id="nav">
+    <div class="remove">
+    <li>
+        <img src="images/cross.png" alt="this is a remove icon" id="exit"/>
+    </li>
+</div>
+
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Support</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+
+</ul>
+    </nav>
+    </header>
+    <section>
+<img src="images/computer.png" alt="this is computer svg" class="computer"/>
+
+        <h1>Web Hosting for the best price ever</h1>
+        <p class="sub-heading"> Pay only when you like it and go for it again and again.</p>
+        <img src="images/scroll.png" alt="scroll-down" class="scroll show on desktop hide on mobile"/>
+    </section>
+</div>
+<div class="blue-container">
+    <div class="container">
+
+
+            <ul>
+                <li>
+                        <img src="images/calendar.png" alt="calendar-icon">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos quae exercitationem suscipit <br>
+                            maiores voluptates corporis quia perspiciatis error similique aperiam architecto fugiat</p>
+            
+                       
+                </li>
+   
+
+                <li>
+                        <img src="images/pin.png" alt="pin-icon">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos quae exercitationem suscipit <br>
+                            maiores voluptates corporis quia perspiciatis error similique aperiam architecto fugiat</p>
+            
+                        
+                        
+                </li>
+
+            
+                <li> 
+                        <img src="images/mail.png" alt="mail-icon">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus quos quae exercitationem suscipit <br>
+                            maiores voluptates corporis quia perspiciatis error similique aperiam architecto fugiat</p>
+            
+
+                    
+                </li>
+               
+            </ul>
+
+
+    </div>
+
+
+</div>
+<div class="gray-container">
+    <div class="container">
+
+        <ul>
+               <li> 
+                     <figure>
+                    <img src="images/user1.png" alt="this is a user testimonial"/>
+                    <blockquote>Hey i use this program it benifites me so much <br>i am so happy customer 
+                    </blockquote>
+                    <figcaption>- Amine Qobaiche</figcaption>
+                     </figure>
+
+                     </li>
+                  <li> 
+
+                             <figure>
+
+                                <img src="images/user2.png" alt="this is a user testimonial"/>
+                             <blockquote>Hey i use this program it benifites me so much <br>i am so happy customer 
+                            </blockquote>
+                             <figcaption>- Hanane Sekadi </figcaption>
+                            
+                        
+                            </figure>
+                 </li>
+    
+                </ul> 
+       
+            </div>
+        
+        </div>
+
+    <div class="container">
+
+        <h2>Start Your Free Trial Now</h2>
+        <a href="#" class="cta">Get Started</a>
+
+
+    </div>
+
+    <footer>
+
+<div class="footer-container">
+    <div class="container">
+
+
+        <h1 class="logoname">Mohamed.Amine.Qobaiche</h1>
+        
+
+<p>Copyright By Amine Qobaiche From Italy 
+    <br>
+    <br> Turin</p>
+
+<ul class="footer-links">
+
+<li><a href="#"> Privacy And Copyrighting</li></a>
+<li><a href="#">Contact us</li></a>
+
+</ul>
+
+    </div>
+
+
+</div>
+
+
+    </footer>
+    <script>
+            var menu = document.getElementById(('menu'));
+            var nav = document.getElementById(('nav'));
+            var exit = document.getElementById(('exit'));
+
+            menu.addEventListener('click', function(e) {
+
+               
+                       nav.classList.toggle('hide-mobile');
+                       e.preventDefault();
+            
+                           
+                            });
+           
+           exit.addEventListener('click', function(e) {
+
+               
+                     nav.classList.add('hide-mobile');
+                     e.preventDefault();
+
+            });
+
+
+    </script>
+</body>
+</html>
